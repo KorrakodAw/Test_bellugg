@@ -12,6 +12,7 @@ test.describe('Edit Branch test', () => {
         await loginTo.login()
         await goto.gotoBranches()
         await editBranch.gotoEdit()
+        await editBranch.changeName()
         
     })
 })
